@@ -25,6 +25,7 @@ body {
    @for $i from 1 through $columns {
      .col-#{$name}-#{$i} {width: percentage($i) / $columns; float: left;position: relative;  min-height: 1px;  box-sizing: border-box; padding: 5px;}
      .col-#{$name}-offset-#{$i} {margin-left: percentage($i) / $columns;}
+     .col-#{$name}-offset-right-#{$i} {margin-right: percentage($i) / $columns;}
    }
  }
 }
