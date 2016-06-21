@@ -58,4 +58,34 @@
   .btn-life:hover {
     background-color: #9553ff; }
 
+.bg-inverted {
+  background-color: #1a1a1a; }
+
+.bg-default {
+  background-color: #fcfcfc; }
+
+.bg-danger {
+  background-color: #ff3363; }
+
+.bg-warning {
+  background-color: #ffa133; }
+
+.bg-alert {
+  background-color: #fbcd5a; }
+
+.bg-success {
+  background-color: #acf400; }
+
+.bg-safe {
+  background-color: #00f495; }
+
+.bg-info {
+  background-color: #80e5ff; }
+
+.bg-primary {
+  background-color: #01ccff; }
+
+.bg-life {
+  background-color: #ceafff; }
+
 /*# sourceMappingURL=mimicry-default.css.map */
