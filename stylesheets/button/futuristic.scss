@@ -1,0 +1,15 @@
+@import "../mixins/mixins.scss";
+@import "../variables/futuristic.scss";
+
+
+
+
+@each $name, $color in $mimicry{
+    .btn-#{$name} {
+      @include gradient(top, $color, darken($color,10));
+      border: 1px solid darken($color, 8);
+      &:hover{
+        background-color: darken($color,8);
+      }
+    }
+  }

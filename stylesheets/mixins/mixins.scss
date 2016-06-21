@@ -4,3 +4,9 @@
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+
+@mixin gradient($position, $color1, $color2){
+  background: -webkit-linear-gradient($position,$color1,$color2);
+  background: -o-linear-gradient($position,$color1,$color2);
+  background:  linear-gradient($position,$color1,$color2);
+}
