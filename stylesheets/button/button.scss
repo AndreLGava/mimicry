@@ -1,0 +1,11 @@
+@import "../mixins/mixins.scss";
+@import "../variables/variables.scss";
+
+.btn{
+  @include border-radius($radius);
+  border: 1px solid #000;
+  color: inherit;
+  padding: 7px;
+  margin: 3px;
+  text-decoration: none;
+}
