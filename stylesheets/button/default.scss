@@ -1,0 +1,15 @@
+@import "../mixins/mixins.scss";
+@import "../variables/default.scss";
+
+
+
+
+@each $name, $color in $mimicry{
+    .btn-#{$name} {
+      background-color: $color;
+      border: 1px solid darken($color, 8);
+      &:hover{
+        background-color: darken($color,8);
+      }
+    }
+  }
