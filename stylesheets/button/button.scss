@@ -3,9 +3,12 @@
 
 .btn{
   @include border-radius($radius);
-  color: inherit;
   padding: 7px;
   margin: 3px;
   text-decoration: none;
   display: inline-block;
+  text-align: center;
+}
+.btn-block{
+  width: 100%;
 }

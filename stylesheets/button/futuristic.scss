@@ -8,6 +8,7 @@
     .btn-#{$name} {
       @include gradient(top, $color, darken($color,10));
       border: 1px solid darken($color, 8);
+      color: #fff;
       &:hover{
         background-color: darken($color,8);
       }
