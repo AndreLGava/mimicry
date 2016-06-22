@@ -2,13 +2,15 @@
 //colors to template
 $inverted: #000;
 $default: #f2f2f2;
-$danger: #d14836;
-$warning:#d28537;
-$alert: #d2d237;
-$success:#37d237;
-$safe: #37d2ab;
-$info:#37d2d2;
-$primary: #375ed2;
+$danger: #d50f25;
+$alert:  #eeb211;
+$warning: mix($alert, $danger, 50%);
+$success: #009925;
+$safe: lighten($success, 15);
+$primary: #3369e8;
+$info: lighten($primary, 15);
 $life: #8537d2;
 
 $mimicry: (inverted $inverted) (default $default) (danger $danger) (warning $warning) (alert $alert) (success $success) (safe $safe) (info $info) (primary $primary) (life $life) ;
+// default radius
+$radius: 2px;

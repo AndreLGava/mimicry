@@ -12,3 +12,6 @@ $primary: darken($info, 25);
 $life: #AE7CFF;
 
 $mimicry: (inverted $inverted) (default $default) (danger $danger) (warning $warning) (alert $alert) (success $success) (safe $safe) (info $info) (primary $primary) (life $life) ;
+
+// default radius
+$radius: 3px;
