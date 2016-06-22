@@ -3,13 +3,13 @@
 $inverted: #000;
 $default: #f2f2f2;
 $danger: #d50f25;
-$alert:  #eeb211;
-$warning: mix($alert, $danger, 50%);
+$alert:  #FFD04A;
+$warning: #eeb211;
 $success: #009925;
-$safe: lighten($success, 15);
+$safe: #8FC550;
 $primary: #3369e8;
-$info: lighten($primary, 15);
-$life: #8537d2;
+$info: #0BA7ED;
+$life: #7147BC;
 
 $mimicry: (inverted $inverted) (default $default) (danger $danger) (warning $warning) (alert $alert) (success $success) (safe $safe) (info $info) (primary $primary) (life $life) ;
 // default radius
