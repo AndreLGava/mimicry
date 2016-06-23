@@ -6,7 +6,8 @@
 
 @each $name, $color in $mimicry{
     .btn-#{$name} {
-      @include gradient(top, $color, darken($color,10));
+      @include border-radius($radius);
+      @include gradient(top, $color, darken($color,8));
       border: 1px solid darken($color, 8);
       color: #fff;
       font-weight: bold;

@@ -2,7 +2,7 @@
 @import "../variables/variables.scss";
 
 .btn{
-  @include border-radius($radius);
+  transition: all .5s;
   padding: 7px;
   margin: 3px;
   text-decoration: none;
