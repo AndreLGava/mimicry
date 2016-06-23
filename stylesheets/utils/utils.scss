@@ -1,0 +1,16 @@
+// This page session has no template this is general classes used withtour color, form or perspective
+@import "../variables/variables.scss";
+
+//Create classes to aling divs
+@each $this in $element{
+  .pull-#{$this}{
+     float: #{$this};
+  }
+}
+
+// Create classes to aling text
+@each $alinhamento in $alignment{
+  .text-#{$alinhamento}{
+    text-align: #{$alinhamento};
+  }
+}

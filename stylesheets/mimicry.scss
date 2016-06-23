@@ -1,3 +1,8 @@
 @import "variables/variables.scss";
+//Common to the framework
 @import "grid/grid.scss";
+@import "utils/utils.scss";
+
+//receives custom components
 @import "button/button.scss";
+@import "nav/nav.scss";
